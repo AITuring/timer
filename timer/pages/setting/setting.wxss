@@ -1,0 +1,13 @@
+.container{
+	padding:15px 10px;
+}
+.section{
+	margin-bottom: 10px;
+}
+.section_title{
+	font-size: 12px;
+	color:#999;
+}
+.section_check{
+	margin-right: 5px;
+}

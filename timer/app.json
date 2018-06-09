@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/todo/todo",
+    "pages/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e52d27",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#e52d27",
+   
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/tomato1.png",
+      "selectedIconPath": "image/tomato.png",
+      "text": "番茄"
+    }, {
+      "pagePath": "pages/todo/todo",
+      "iconPath": "image/todo1.png",
+      "selectedIconPath": "image/todo.png",
+      "text": "清单"
+    }, {
+      "pagePath": "pages/setting/setting",
+      "iconPath": "image/setting1.png",
+      "selectedIconPath": "image/setting.png",
+      "text": "设置"
+    }]
+  }
+}

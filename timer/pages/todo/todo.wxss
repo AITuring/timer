@@ -1,0 +1,62 @@
+/**todo.wxss**/
+.container {
+    border-top:1rpx solid white;
+    justify-content:center;
+    align-items:center;
+    padding: 20rpx;
+}
+.header{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 20rpx;
+    border: 1rpx solid white;
+    box-shadow: 0 0 10px #e0e0e0;
+    border-radius: 30px;
+}
+.header .plus {
+    width: 50rpx;
+    height: 50rpx;
+    margin-right: 20rpx;
+}
+.header .input {
+    flex: 1;
+    font-size: 41rpx;
+}
+.empty {
+    display:flex;
+    align-items:center;
+}
+.content{
+    padding:200rpx 0;
+    align-items:center;
+}
+.todo{
+    width:100%;
+    margin:20rpx;
+    align-items:center;
+}
+.taskList{
+    width:100%;
+    display:flex;
+    border: 1rpx solid white;
+    border-radius: 30px;
+    padding:20rpx;
+    align-items:center;
+}
+.taskList .task {
+    flex:1
+}
+.completed .task {
+    text-decoration: line-through
+}
+.footer {
+    margin-top:30rpx 0rpx 0rpx 0rpx;
+    display:flex;
+}
+button{
+    border-radius: 30px;
+    padding:0 15rpx;
+    margin:0 25rpx;
+    font-size:35rpx;
+}
